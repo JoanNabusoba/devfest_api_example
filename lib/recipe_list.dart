@@ -76,7 +76,7 @@ class _RecipeListState extends State<RecipeList> {
                     .get(Uri.https("api.spoonacular.com", "/recipes/random", {
                   "limitLicense": "true",
                   "number": "10",
-                  "apiKey": "1f9d617ba13041859ea773423b0e6291"
+                  "apiKey": ""
                 })),
                 builder: (context, snapshot) {
                   if (snapshot.hasData && snapshot.data != null) {
